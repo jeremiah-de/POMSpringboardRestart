@@ -348,8 +348,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = POMSpringboardRestart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "511fa009-f885-490c-a7f8-ddc54ed0e563";
 			};
 			name = Debug;
 		};
@@ -358,8 +360,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = POMSpringboardRestart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "511fa009-f885-490c-a7f8-ddc54ed0e563";
 			};
 			name = Release;
 		};
@@ -416,6 +420,7 @@
 				273F4D181AB0D9890092442A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		273F4D191AB0D9890092442A /* Build configuration list for PBXNativeTarget "POMSpringboardRestartTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +429,7 @@
 				273F4D1B1AB0D9890092442A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
